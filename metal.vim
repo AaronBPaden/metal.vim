@@ -15,26 +15,27 @@ endif
 
 let colors_name = "metal"
 
-hi Normal		guifg=Black guibg=#CCCCCC
+hi Normal		guifg=Black 		guibg=#CCCCCC
 
-hi NonText		gui=bold		guifg=black
+hi NonText		gui=bold			guifg=black
 
 hi Comment		guifg=#835B5B
 
-hi Constant		guifg=#688A74	gui=bold
+hi Constant		guifg=#4F745C		gui=bold
 
 hi Statement	guifg=DarkGreen		gui=bold
+
 hi identifier	guifg=blue
 
-hi preproc		guifg=#408040
+hi preproc		guifg=#FF4646  		gui=bold
 
 hi type			guifg=DarkBlue
 
-hi label		guifg=#c06000
+hi label		guifg=#835B5B		gui=bold
 
 hi operator		guifg=DarkGreen		gui=bold
 
-hi StorageClass	guifg=#a02060			gui=bold
+hi StorageClass	guifg=#a02060		gui=bold
 
 hi Number		guifg=Blue
 
@@ -42,11 +43,11 @@ hi Special		guifg=#aa8822
 
 hi ErrorMsg		guibg=DarkRed 		guifg=black
 
-hi DiffText		gui=bold		guibg=DarkRed
+hi DiffText		gui=bold			guibg=DarkRed
 
-hi Directory	guifg=black gui=bold
+hi Directory	guifg=black 		gui=bold
 
-hi LineNr		guifg=black gui=bold
+hi LineNr		guifg=black 		gui=bold
 
 hi MoreMsg		gui=bold			guifg=SeaGreen
 
@@ -56,13 +57,13 @@ hi Search		guibg=#887722		guifg=Black
 
 hi SpecialKey	guifg=Blue
 
-hi SpecialChar	guifg=DarkGrey		gui=bold
+hi SpecialChar	guifg=#FF4646		gui=bold
 
-hi Title		gui=underline			guifg=DarkMagenta
+hi Title		gui=underline		guifg=DarkMagenta
 
 hi WarningMsg	guifg=DarkBlue		guibg=#9999cc
 
-hi WildMenu		guibg=Yellow		guifg=Black gui=underline
+hi WildMenu		guibg=Yellow		guifg=Black 		gui=underline
 
 hi Folded		guibg=LightGrey		guifg=DarkBlue
 
