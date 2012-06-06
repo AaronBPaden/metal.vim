@@ -17,7 +17,9 @@ let colors_name = "metal"
 
 hi Normal		guifg=Black 		guibg=#CCCCCC
 
-hi NonText		gui=bold			guifg=black
+" EOL and tabs
+hi NonText		gui=bold			guifg=#B1B1B1
+hi SpecialKey   gui=bold            guifg=#B1B1B1
 
 hi Comment		guifg=#835B5B
 
@@ -54,8 +56,6 @@ hi MoreMsg		gui=bold			guifg=SeaGreen
 hi Question		gui=bold			guifg=DarkGreen
 
 hi Search		guibg=#887722		guifg=Black
-
-hi SpecialKey	guifg=Blue
 
 hi SpecialChar	guifg=#FF4646		gui=bold
 
